@@ -14,6 +14,7 @@ body {
     background: url("../img/hero-bg.jpg") center / cover no-repeat;
 }
 
+/* Header styles */
 header {
     position: fixed;
     width: 100%;
@@ -75,4 +76,30 @@ header {
     border-radius: 3px;
     cursor: pointer;
     background: #fff;
+}
+
+/* Popup Form */
+.form-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 720px;
+    width: 100%;
+    background: #fff;
+    border: 2px solid #fff;
+    transform: translate(-50%, -50%);
+}
+
+.form-popup .form-box {
+    display: flex;
+
+}
+
+.form-box .form-details {
+    max-width: 330px;
+}
+
+.form-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
 }
